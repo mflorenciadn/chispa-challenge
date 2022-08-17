@@ -45,8 +45,8 @@ const Hero = ({ data }: HeroProps) => {
       >
         <Stack
           align={"flex-start"}
-          maxW={{ base: "90%", md: "48%", lg: "37%", xl: "35%" }}
-          spacing={{ base: "6.75rem", md: "2rem", xl: "25%" }}
+          maxW={{ base: "90%", md: "48%", lg: "37%", xl: "30%", xxl: "40%" }}
+          spacing={{ base: "6.75rem", md: "25%", xl:"35%"}}
         >
           <Heading color={"white"} size={"5xl"}>
             {t(`hero.sections.${page}.title`)}
@@ -67,7 +67,7 @@ const Hero = ({ data }: HeroProps) => {
                   base: "1rem",
                   md: "0.9rem",
                   lg: "1rem",
-                  xl: "1.75rem",
+                  xxl: "1.75rem",
                 }}
                 style={{ cursor: "pointer" }}
                 _hover={{ opacity: "1" }}

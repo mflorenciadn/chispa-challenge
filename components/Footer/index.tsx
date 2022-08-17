@@ -29,11 +29,11 @@ const Footer = ({ data }: FooterProps) => {
         <Flex
           align={"center"}
           direction={{ base: "column", md: "row" }}
-          fontSize={{ lg: "1.1rem", xl: "1.75rem" }}
+          fontSize={{ lg: "1.1rem", xxl: "1.7rem" }}
           justify={{ base: "center", md: "space-betwwen" }}
           textAlign={{ base: "center", md: "left" }}
         >
-          <Box flex={1.2}>
+          <Box flex={{base: "1.2", xxl: "1"}}>
             <Box mb={8}>
               <Flex justify={{ base: "center", md: "left" }} align="center">
                 <Img
@@ -67,7 +67,7 @@ const Footer = ({ data }: FooterProps) => {
             <Heading
               as="h3"
               fontWeight={600}
-              fontSize={{ base: "1.5rem", xl: "2rem" }}
+              fontSize={{ base: "1.5rem", xxl: "2rem" }}
               mb={"1rem"}
             >
               {t("contact")}
@@ -91,9 +91,9 @@ const Footer = ({ data }: FooterProps) => {
         bg="brand"
         color="white"
         fontSize={{ base: "3xl", md: "6xl" }}
-        py={{ base: "1rem", md: "2rem", xl: "4rem" }}
+        py={{ base: "1rem", md: "2rem", xxl: "4rem" }}
         fontWeight="300"
-        h={{ base: "8rem", md: "10rem", xl: "14rem" }}
+        h={{ base: "8rem", md: "10rem", xxl: "14rem" }}
         boxShadow="inset 0px 58px 36px -45px rgba(12, 42, 98, 0.5)"
       >
         <Center>

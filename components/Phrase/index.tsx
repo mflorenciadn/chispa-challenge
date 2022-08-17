@@ -5,7 +5,7 @@ const Phrase = () => {
   const { t } = useTranslation(["home"]);
 
   return (
-    <Flex h="100vh" w="100vw" align="center" textAlign="center" p={{base: "1.5rem", md: "6rem", lg: "12rem", xl: "10rem"}}>
+    <Flex h="100vh" w="100vw" align="center" textAlign="center" p={{base: "1.5rem", md: "6rem", lg: "12rem", xxl: "10rem"}}>
       <Heading size={"6xl"}>
         <Highlight
           query={["aventuras locales", "local adventures"]}

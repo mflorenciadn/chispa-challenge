@@ -18,8 +18,8 @@ const DesktopNav = ({ data, onClickReserve }: DesktopNavProps) => {
   return (
     <Box
       bg="white"
-      h={{ md: "4rem", xl: "6rem" }}
-      p={{ md: "0.5rem 1rem", lg: "1.25rem 1rem", xl: "3.5rem 2rem" }}
+      h={{ md: "4rem", xxl: "6rem" }}
+      p={{ md: "0.5rem 1rem", lg: "1.25rem 1rem", xxl: "3.5rem 2rem" }}
       style={{ borderRadius: "16px", justifyContent: "space-between" }}
       boxShadow={"0px 12px 32px 0px #00000040"}
       minW="100%"

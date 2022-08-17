@@ -43,11 +43,11 @@ const Navbar = ({ data }: NavbarProps) => {
         <Flex
           as="nav"
           justifyContent="space-between"
-          h={{ base: "2rem", md: "4rem", xl: "8rem" }}
+          h={{ base: "2rem", md: "4rem", xxl: "8rem" }}
           align="center"
           justify="space-between"
           minWidth="100%"
-          p={{ base: "5rem 1.5rem", md: "4rem 6rem", xl: "6rem" }}
+          p={{ base: "5rem 1.5rem", md: "4rem 6rem", xxl: "6rem" }}
         >
           <Flex justify="start">
             <Link
@@ -56,7 +56,7 @@ const Navbar = ({ data }: NavbarProps) => {
               _active={{ transform: "scale(0.9)", backgroundColor: "white" }}
               _focus={{background: 'white'}}
               _hover={{background: 'white', opacity: '0.9'}}
-              p={{ base: "1.1rem 1rem", xs: "1.1rem", md: "1.45rem", lg: "1.5rem 1.5rem", xl: "2.5rem 3rem" }}
+              p={{ base: "1.1rem 1rem", xs: "1.1rem", md: "1.45rem", lg: "1.5rem 1.5rem", xxl: "2.5rem 3rem" }}
               borderRadius={{ base: "8px", md: "16px" }}
               style={{ justifyContent: "center" }}
               boxShadow={"0px 12px 32px 0px #00000040"}
@@ -65,7 +65,7 @@ const Navbar = ({ data }: NavbarProps) => {
             >
               <Img
                 src="/assets/images/logotype.png"
-                height={{ base: "12px", xs: "13px", md: "16px",lg: "16px", xl: "24px" }}
+                height={{ base: "12px", xs: "13px", md: "16px",lg: "16px", xxl: "24px" }}
                 aria-hidden
               />
             </Link>

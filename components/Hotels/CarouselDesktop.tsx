@@ -14,7 +14,7 @@ const CarouselDesktop = ({ data }: CarouselDesktopProps) => {
   return (
     <Flex
       direction="row"
-      pl={{ md: "6rem", xl: "8rem" }}
+      pl={{ md: "6rem", xxl: "8rem" }}
       maxW="100vw"
       minW="100vw"
     >
@@ -60,10 +60,10 @@ const CarouselDesktop = ({ data }: CarouselDesktopProps) => {
               bgRepeat="no-repeat"
               bgSize="cover"
               borderRadius="16px"
-              h={{ md: "27rem", xl: "40rem" }}
+              h={{ md: "27rem", xxl: "40rem" }}
               maxW="100%"
               textAlign={"left"}
-              w={{ md: "40rem", xl: "70rem" }}
+              w={{ md: "40rem", xxl: "70rem" }}
             >
               <BoxDetail
                 background={hotel.backgroundColor}
@@ -71,16 +71,16 @@ const CarouselDesktop = ({ data }: CarouselDesktopProps) => {
                 onMouseOver={() => setCardHovered(index)}
               >
                 <HStack>
-                  <Img p={{md: "0.25rem 0", xl:"0"}} src="/assets/icons/ic_map.svg" />
+                  <Img p={{md: "0.25rem 0", xxl:"0"}} src="/assets/icons/ic_map.svg" />
                   <Text fontSize="1.1rem" letterSpacing="1px">
                     {hotel.location}
                   </Text>
                 </HStack>
-                <Img p={{md: "0.5rem 0", xl: "1rem 0"}} src={hotel.titleImage} />
+                <Img p={{md: "0.5rem 0", xxl: "1rem 0"}} src={hotel.titleImage} />
                 {index === cardHovered && (
-                  <Stack p={{md: "1rem 0", xl: "0.25rem 0"}}>
+                  <Stack p={{md: "1rem 0", xxl: "0.25rem 0"}}>
                     <Text
-                      fontSize={{ base: "0.85rem", xl: "1.3rem" }}
+                      fontSize={{ base: "0.85rem", xxl: "1.3rem" }}
                       letterSpacing="0.9px"
                       lineHeight="24px"
                       pb="0.5rem"

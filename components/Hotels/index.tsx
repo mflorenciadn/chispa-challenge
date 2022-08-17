@@ -20,13 +20,13 @@ const Hotels = ({ data }: HotelsProps) => {
       pb={{ base: "3.25rem", md: 10 }}
       pt={{ base: "6.25rem", md: "5rem" }}
     >
-      <Box px={{ base: "1.5rem", md: "6rem", xl: "8rem" }} textAlign="left">
+      <Box px={{ base: "1.5rem", md: "6rem", xxl: "8rem" }} textAlign="left">
         <Heading
           as="h1"
           fontWeight="600"
           lineHeight="56px"
           mr="0.5rem"
-          size={{ base: "3xl", md: "2xl", xl: "4xl" }}
+          size={{ base: "3xl", md: "2xl", xxl: "4xl" }}
         >
           {t("hotels.title")}
         </Heading>
@@ -35,9 +35,9 @@ const Hotels = ({ data }: HotelsProps) => {
           mb={{ base: "0rem", md: "3.5rem" }}
           mt={{ base: "2rem", md: "2.5rem" }}
           px="0"
-          width={{ base: "101%", md: "80%", lg: "60%" }}
-          lineHeight={{ base: "32px", xl: "40px" }}
-          fontSize={{ base: "1.25rem", xl: "2.1rem" }}
+          width={{ base: "101%", md: "80%", lg: "60%" , xl: "40%"}}
+          lineHeight={{ base: "32px", xxl: "40px" }}
+          fontSize={{ base: "1.25rem", xxl: "2.1rem" }}
         >
           {t("hotels.subtitle")}
         </Heading>
