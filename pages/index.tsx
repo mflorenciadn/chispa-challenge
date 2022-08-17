@@ -26,10 +26,10 @@ const Home: NextPage<HomePageProps> = ({ homeProps }: HomePageProps) => (
 );
 
 export const getServerSideProps: GetServerSideProps = async ({ locale }) => {
-  const _navData = await (await fetch(`${process.env.API_URL}/nav`)).json();
-  const _homeData = await (await fetch(`${process.env.API_URL}/home`)).json();
+  const _navData = await (await fetch(`${process.env.NEXT_PUBLIC_API}/nav`)).json();
+  const _homeData = await (await fetch(`${process.env.NEXT_PUBLIC_API}/home`)).json();
   const _footerData = await (
-    await fetch(`${process.env.API_URL}/footer`)
+    await fetch(`${process.env.NEXT_PUBLIC_API}/footer`)
   ).json();
 
   const i18n = await serverSideTranslations(locale!);
