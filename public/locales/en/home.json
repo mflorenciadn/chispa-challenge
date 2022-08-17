@@ -1,0 +1,23 @@
+{
+  "hero": {
+    "sections": [
+      {
+        "title": "Lorem Ipsum",
+        "subtitle": "Co-living concept"
+      },
+      {
+        "title": "Your tribe awaits you",
+        "subtitle": "Unique experiences"
+      },
+      {
+        "title": "Lorem Ipsum",
+        "subtitle": "Multi-format gastronomy"
+      }
+    ]
+  },
+  "phrase": "A home with space to cowork, connect with local adventures and amazing people.",
+  "hotels": {
+    "title": "Hotels that are homes",
+    "subtitle": "Feel part of the tribe in an environment designed for you to experience the journey that will change something in you."
+  }
+}

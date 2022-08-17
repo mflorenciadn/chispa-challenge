@@ -1,0 +1,19 @@
+{
+  "links": {
+    "stay": "Stay",
+    "co-work": "Co-Work",
+    "experiences": "Experiences",
+    "join": "Join"
+  },
+  "dropdown": {
+    "city-host": "City Host",
+    "activities": "Activities",
+    "gastronomy": "Gastronomy",
+    "events": "Events"
+  },
+  "buttons": {
+    "en": "English",
+    "es":"Español",
+    "reserve": "Reserve"
+  }
+}

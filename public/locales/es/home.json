@@ -1,0 +1,23 @@
+{
+  "hero": {
+    "sections": [
+      {
+        "title": "Lorem Ipsum",
+        "subtitle": "Concepto Co-living"
+      },
+      {
+        "title": "Tu tribu te espera",
+        "subtitle": "Experiencias únicas"
+      },
+      {
+        "title": "Lorem Ipsum",
+        "subtitle": "Gastronomía multi-formato"
+      }
+    ]
+  },
+  "phrase": "Un hogar con espacio para coworkear, conectarte con aventuras locales y personas increíbles.",
+  "hotels": {
+    "title": "Hoteles que son hogares",
+    "subtitle": "Siéntete parte de la tribu en un ambiente diseñado para que experimentes el viaje que va a cambiar algo en ti."
+  }
+}
