@@ -17,7 +17,7 @@ const NavItem = (item: NavItem) => {
 
   return (
     <>
-      <HStack justify={"space-between"}>
+      <HStack justify="space-between">
         <Heading
           fontSize="2rem"
           lineHeight="32px"
@@ -41,7 +41,7 @@ const NavItem = (item: NavItem) => {
             }
             onClick={onToggle}
             _active={{ background: "transparent" }}
-            aria-label={"Abrir menú"}
+            aria-label="Abrir menú"
             variant="ghost"
           />
         )}
@@ -53,7 +53,6 @@ const NavItem = (item: NavItem) => {
               {item.subItems.map((subItem: NavItem) => (
                 <Box pl="2rem" key={subItem.id}>
                   <Heading fontSize="2rem" fontWeight="600" py="0.5rem">
-                    {" "}
                     {t(`dropdown.${subItem.id}`)}
                   </Heading>
                 </Box>

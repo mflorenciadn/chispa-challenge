@@ -15,7 +15,7 @@ const DesktopNavItem = (navItem: NavItem) => {
   return (
     <Box>
       <Popover
-        trigger={"hover"}
+        trigger="hover"
         placement="bottom"
         gutter={30}
         isLazy

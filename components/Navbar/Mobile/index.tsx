@@ -22,7 +22,7 @@ const MobileNav = ({ onClickReserve, data }: MobileNavProps) => {
     <>
       <HStack justify="flex-end" spacing={3}>
         <Button
-          boxShadow={"0px 12px 32px 0px #00000040"}
+          boxShadow="0px 12px 32px 0px #00000040"
           onClick={onClickReserve}
           leftIcon={
             <Img
@@ -35,10 +35,10 @@ const MobileNav = ({ onClickReserve, data }: MobileNavProps) => {
           {t("buttons.reserve")}
         </Button>
         <IconButton
-          boxShadow={"0px 12px 32px 0px #00000040"}
+          boxShadow="0px 12px 32px 0px #00000040"
           icon={<Img src="/assets/icons/ic_burger.svg" aria-hidden />}
           onClick={onToggle}
-          aria-label={"Abrir menú"}
+          aria-label="Abrir menú"
         />
       </HStack>
       <NavMenu isOpenMenu={isOpen} onCloseDrawer={onToggle} items={data} />

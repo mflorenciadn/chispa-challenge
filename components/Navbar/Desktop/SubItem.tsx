@@ -9,14 +9,14 @@ const DesktopSubItem = (subItem: NavItem) => {
     <Link
       role="group"
       href={subItem.href}
-      display={"flex"}
-      p={"0.75rem 1.5rem"}
+      display="flex"
+      p="0.75rem 1.5rem"
       borderRadius="0.5rem"
-      justifyContent={"center"}
+      justifyContent="center"
       textAlign="center"
     >
       <Box style={{ letterSpacing: "0.4px" }}>
-        <Text transition={"all .3s ease"}>{t(`dropdown.${subItem.id}`)}</Text>
+        <Text transition="all .3s ease">{t(`dropdown.${subItem.id}`)}</Text>
       </Box>
     </Link>
   );

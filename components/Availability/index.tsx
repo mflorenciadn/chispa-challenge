@@ -32,7 +32,7 @@ const Availability = ({
     <DrawerContent padding={{ md: "0rem 1rem" }}>
       <DrawerCloseButton onClick={onCloseDrawer} />
       <DrawerHeader>
-        <Heading size="2xl" fontWeight={"600"} as="h1" py={{ md: "0rem" }}>
+        <Heading size="2xl" fontWeight="600" as="h1" py={{ md: "0rem" }}>
           Reservar
         </Heading>
       </DrawerHeader>

@@ -15,7 +15,7 @@ const Hotels = ({ data }: HotelsProps) => {
     <Box
       bgColor="#F4F4F4"
       bgSize={{ base: "100%", md: "75%" }}
-      borderRadius={"1rem"}
+      borderRadius="1rem"
       mr={{ base: "0", md: "25%" }}
       pb={{ base: "3.25rem", md: 10 }}
       pt={{ base: "6.25rem", md: "5rem" }}

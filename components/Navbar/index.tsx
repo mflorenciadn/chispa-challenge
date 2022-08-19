@@ -52,11 +52,17 @@ const Navbar = ({ data }: NavbarProps) => {
           <Flex justify="start">
             <Link
               bg="#FFFFFF"
-              href='/'
+              href="/"
               _active={{ transform: "scale(0.9)", backgroundColor: "white" }}
-              _focus={{background: 'white'}}
-              _hover={{background: 'white', opacity: '0.9'}}
-              p={{ base: "1.1rem 1rem", xs: "1.1rem", md: "1.45rem", lg: "1.5rem 1.5rem", xxl: "2.5rem 3rem" }}
+              _focus={{ background: "white" }}
+              _hover={{ background: "white", opacity: "0.9" }}
+              p={{
+                base: "1.1rem 1rem",
+                xs: "1.1rem",
+                md: "1.45rem",
+                lg: "1.5rem 1.5rem",
+                xxl: "2.5rem 3rem",
+              }}
               borderRadius={{ base: "8px", md: "16px" }}
               style={{ justifyContent: "center" }}
               boxShadow={"0px 12px 32px 0px #00000040"}
@@ -65,14 +71,20 @@ const Navbar = ({ data }: NavbarProps) => {
             >
               <Img
                 src="/assets/images/logotype.png"
-                height={{ base: "12px", xs: "13px", md: "16px",lg: "16px", xxl: "24px" }}
+                height={{
+                  base: "12px",
+                  xs: "13px",
+                  md: "16px",
+                  lg: "16px",
+                  xxl: "24px",
+                }}
                 aria-hidden
               />
             </Link>
           </Flex>
           <Flex>
             <Show above="md">
-            <DesktopNav data={data} onClickReserve={onClickReserve} />
+              <DesktopNav data={data} onClickReserve={onClickReserve} />
             </Show>
           </Flex>
           <Hide above="md">

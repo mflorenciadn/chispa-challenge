@@ -61,7 +61,7 @@ const NavMenu = ({ isOpenMenu, onCloseDrawer, items }: NavMenuProps) => {
           </Stack>
           <Link
             href={`/${otherPath}`}
-            p={"0.75rem 1.5rem"}
+            p="0.75rem 1.5rem"
             style={{ letterSpacing: "0.4px" }}
             _active={{ background: "transparent" }}
             _hover={{ background: "transparent" }}
@@ -74,10 +74,14 @@ const NavMenu = ({ isOpenMenu, onCloseDrawer, items }: NavMenuProps) => {
             py="2rem"
             w="100%"
           >
-            <HStack py='0.75rem'>
-              <Img src="/assets/icons/ic_globe.svg" pl="-0.1rem" aria-hidden mr='0.5rem' />
-             <p color='black'>
-             {t(`buttons.${otherPath}`)}</p> 
+            <HStack py="0.75rem">
+              <Img
+                src="/assets/icons/ic_globe.svg"
+                pl="-0.1rem"
+                aria-hidden
+                mr="0.5rem"
+              />
+              <p color="black">{t(`buttons.${otherPath}`)}</p>
             </HStack>
           </Link>
           <DrawerFooter minH="11vh">

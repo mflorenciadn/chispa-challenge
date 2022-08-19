@@ -34,7 +34,7 @@ const DesktopNav = ({ data, onClickReserve }: DesktopNavProps) => {
         </HStack>
         <Link
           href={`/${otherPath}`}
-          p={"0.75rem 1.5rem"}
+          p="0.75rem 1.5rem"
           style={{ letterSpacing: "0.4px" }}
         >
           {t(`buttons.${otherPath}`)}

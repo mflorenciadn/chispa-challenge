@@ -13,7 +13,7 @@ const theme = extendTheme({
     sm: "30rem",
     md: "60rem",
     lg: "75rem",
-    xl:"100rem",
+    xl: "100rem",
     xxl: "135rem",
   },
   fonts: {

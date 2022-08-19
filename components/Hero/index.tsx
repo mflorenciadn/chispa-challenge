@@ -33,8 +33,8 @@ const Hero = ({ data }: HeroProps) => {
       textAlign="left"
     >
       <Stack
-        w={"100%"}
-        justify={"end"}
+        w="100%"
+        justify="end"
         px={{ base: "1.5rem", md: "6rem" }}
         pb="7.25rem"
         background={{
@@ -44,18 +44,18 @@ const Hero = ({ data }: HeroProps) => {
         spacing={{ base: "2rem" }}
       >
         <Stack
-          align={"flex-start"}
+          align="flex-start"
           maxW={{ base: "90%", md: "48%", lg: "37%", xl: "30%", xxl: "40%" }}
           spacing={{ base: "6.75rem", md: "25%", xl:"35%"}}
         >
-          <Heading color={"white"} size={"5xl"}>
+          <Heading color="white" size="5xl">
             {t(`hero.sections.${page}.title`)}
           </Heading>
           <HStack
             maxW={{ base: "50%", lg: "45%" }}
             spacing={{ base: "1rem", md: "0.5rem", lg: "0.75rem" }}
             fontWeight="400"
-            color={"#ffffff"}
+            color="#ffffff"
           >
             {data?.map((_section: HeroSection, index: number) => (
               <Stack
@@ -73,10 +73,10 @@ const Hero = ({ data }: HeroProps) => {
                 _hover={{ opacity: "1" }}
               >
                 <Text>{index + 1}</Text>
-                <Hide below={"md"}>
+                <Hide below="md">
                   <Text w="60%">{t(`hero.sections.${index}.subtitle`)}</Text>
                 </Hide>
-                <Box flexDirection={"row"} mt="1.5rem">
+                <Box flexDirection="row" mt="1.5rem">
                   {page === index && (
                     <Box
                       w={{ base: "1.75rem", md: "70%" }}

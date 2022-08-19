@@ -68,7 +68,7 @@ const Footer = ({ data }: FooterProps) => {
               as="h3"
               fontWeight={600}
               fontSize={{ base: "1.5rem", xxl: "2rem" }}
-              mb={"1rem"}
+              mb="1rem"
             >
               {t("contact")}
             </Heading>
@@ -76,7 +76,7 @@ const Footer = ({ data }: FooterProps) => {
             <Text>E: {data?.contact?.email}</Text>
           </Box>
           <Spacer />
-          <Hide below={"md"}>
+          <Hide below="md">
             <Stack flex={0.8} py={0}>
               {data?.links?.map((link) => (
                 <Link key={link.id} variant="footer" href={link.url}>
